@@ -1,5 +1,7 @@
 <?php $home = $pages->get('/'); /** @var HomePage $home */
 
+require_once "style.php";
+
 ?><!DOCTYPE html>
 <html lang="de">
 	<head id="html-head">
@@ -19,7 +21,7 @@
         <meta property="og:image" content=" ">
 
         <link rel="icon" href="/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="<?php echo $styles; ?>reset.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo $styles; ?>main.css">
+        <link rel="stylesheet" type="text/css" href="<?php // echo $styles; ?>reset.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $styles; ?>style.css">
 	</head>
 	<body id="html-body">
