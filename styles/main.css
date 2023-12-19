@@ -38,3 +38,34 @@ body {
 }
 
 /* */
+
+/* layouts */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    background: #eeeeee;
+}
+
+footer {
+    background: #444444;
+    color: silver;
+}
+
+footer a {
+    color: yellow;
+}
+
+.header-inner,
+.main-inner,
+.sidebar-inner,
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}

@@ -11,19 +11,19 @@
 include('template-parts/_head.php'); ?>
 
         <!-- if page is homepage -> load different header -->
-        <?php // if ($page->id == 1 ) : ?>
-        	<?php // include('template-parts/header-home.php'); ?>
-        <?php // else: ?>
-        	<?php // include('template-parts/header.php'); ?>
-        <?php //  endif; ?>
-        
-        <?php include('template-parts/header-home.php'); ?>
+        <?php if ($page->id == 1 ) : ?>
+        	<?php include('template-parts/header-home.php'); ?>
+        <?php else: ?>
+        	<?php include('template-parts/header.php'); ?>
+        <?php endif; ?>
 
 	    <main>
-	        <article>
-	            <h2><?php echo $page->title; ?></h2>
-	            <p><?php echo $page->body; ?></p>
-	        </article>
+	        <div class="main-inner">
+    	        <article>
+    	            <h2><?php echo $page->title; ?></h2>
+    	            <p><?php echo $page->body; ?></p>
+    	        </article>
+	        </div>
 	    </main>
 	    
 	    <?php include('template-parts/sidebar.php'); ?>
