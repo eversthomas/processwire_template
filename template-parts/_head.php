@@ -20,8 +20,7 @@ require_once "style.php";
         <meta property="og:description" content="<?php echo $pages(1017)->site_description; ?>">
         <meta property="og:image" content=" ">
 
-        <link rel="icon" href="/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="<?php // echo $styles; ?>reset.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo $styles; ?>style.css">
+        <!-- <link rel="icon" href="/favicon.ico"> -->
+        <link rel="stylesheet" type="text/css" href="<?php echo $styles; ?>style.css">
 	</head>
 	<body id="html-body">
