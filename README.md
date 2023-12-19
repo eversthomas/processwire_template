@@ -5,5 +5,5 @@ usefull modules:
 
 * SVG File Sanitizer/Validator -> class: FileValidatorSvgSanitizer
 * Markup Simple Navigation -> class: MarkupSimpleNavigation
-* File Manager -> ProcessFileManager
+* File Manager -> class: ProcessFileManager
 
